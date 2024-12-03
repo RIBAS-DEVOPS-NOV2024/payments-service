@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "80b949e5-1b0e-460c-a8cd-dd843339665e",
+		"name": "Payments MS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14224057",
+		"_collection_link": "https://speeding-eclipse-403714.postman.co/workspace/My-Workspace~ce7698d8-0037-4956-8b27-8591f852b321/collection/14224057-80b949e5-1b0e-460c-a8cd-dd843339665e?action=share&source=collection_link&creator=14224057"
+	},
+	"item": [
+		{
+			"name": "GET payments",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "{{API_GATEWAY_IP}}",
+			"value": "localhost:8080",
+			"type": "string"
+		}
+	]
+}
