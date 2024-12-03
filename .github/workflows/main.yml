@@ -37,7 +37,7 @@ jobs:
 
     - name: Run Postman tests
       run: |
-        newman run "Products MS.postman_collection.json" \
+        newman run "Payments MS.postman_collection.json" \
           --environment testing.postman_environment.json \
           --delay-request 100 \
           --reporters cli,html \
