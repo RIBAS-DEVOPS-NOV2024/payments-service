@@ -18,7 +18,7 @@
 						"{{API_GATEWAY_IP}}"
 					],
 					"path": [
-						"products"
+						"payments"
 					]
 				}
 			},
