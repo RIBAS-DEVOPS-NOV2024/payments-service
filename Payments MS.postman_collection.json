@@ -11,7 +11,16 @@
 			"name": "GET payments",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+			"url": {
+					"raw": "{{API_GATEWAY_IP}}/payments",
+					"host": [
+						"{{API_GATEWAY_IP}}"
+					],
+					"path": [
+						"products"
+					]
+				}
 			},
 			"response": []
 		}
