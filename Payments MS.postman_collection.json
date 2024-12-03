@@ -40,7 +40,7 @@
 	],
 	"variable": [
 		{
-			"key": "{{API_GATEWAY_IP}}",
+			"key": "API_GATEWAY_IP",
 			"value": "localhost:8080",
 			"type": "string"
 		}
